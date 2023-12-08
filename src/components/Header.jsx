@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-semibold">MY JEWELRY STORE</h1>
+        <h1 className="text-xl font-custom1">MY JEWELRY STORE</h1>
         <div className="flex">
           <img
             src="src/assets/logos/search.svg"
@@ -14,7 +14,7 @@ const Header = () => {
           <CartIcon />
         </div>
       </div>
-      <h1 className="flex justify-center font-medium text-base">
+      <h1 className="flex justify-center font-custom1 font-medium text-base">
         Moissanite Engagement Rings
       </h1>
     </>

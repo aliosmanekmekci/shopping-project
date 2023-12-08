@@ -16,15 +16,13 @@ const ProductItem = ({
   return (
     <div className={cx("product-item")}>
       <span className={cx("product-item__image")}>
-        <img
-          // className={cx("product-item__image")}
-          src={images[selectedColor]}
-          alt={title}
-        />
+        <img src={images[selectedColor]} alt={title} />
       </span>
       <div className={cx("product-item__content")}>
-        <h2>{title}</h2>
-        <p>{price}</p>
+        <div className={cx("product-item__title")}>
+          <h2>{title}</h2>
+          <p>{price}</p>
+        </div>
         <div className={cx("product-item__buttons")}>
           <button
             className={cx("color-button", "color-button__yellow")}

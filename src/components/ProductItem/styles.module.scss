@@ -6,12 +6,18 @@
   @apply p-4 m-5;
 
   &__image {
+    @apply hover:scale-110 transition duration-500;
+
     display: inline-block;
     width: 150px;
 
     & > img {
       width: 100%;
     }
+  }
+
+  &__title {
+    @apply hover:scale-110 transition duration-500;
   }
 
   &__buttons {
