@@ -1,0 +1,36 @@
+@use "tailwindcss/base";
+@use "tailwindcss/components";
+@use "tailwindcss/utilities";
+
+.product-item {
+  @apply p-4 m-5;
+
+  &__image {
+    display: inline-block;
+    width: 150px;
+
+    & > img {
+      width: 100%;
+    }
+  }
+
+  &__buttons {
+    @apply flex space-x-2;
+  }
+}
+
+.color-button {
+  @apply w-5 h-5 rounded-full text-sm font-medium;
+
+  &__yellow {
+    background-color: theme("colors.yellow.200");
+  }
+
+  &__roseGold {
+    background-color: theme("colors.pink.200");
+  }
+
+  &__whiteGold {
+    background-color: theme("colors.gray.200");
+  }
+}

@@ -1,0 +1,11 @@
+@use "tailwindcss/base";
+@use "tailwindcss/components";
+@use "tailwindcss/utilities";
+
+.cart-icon {
+  @apply relative;
+
+  &__search-icon {
+    @apply bg-red-500 text-white w-4 h-4 flex justify-center items-center rounded-full absolute -top-2 -right-2 text-xs cursor-pointer;
+  }
+}
