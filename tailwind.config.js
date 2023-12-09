@@ -9,6 +9,7 @@ export default {
   theme: {
     fontFamily: {
       custom1: ["Avenir", "sans-serif"],
+      custom2: ["Montserrat", "sans-serif"],
       extend: {},
     },
     plugins: [],

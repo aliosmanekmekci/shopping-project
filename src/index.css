@@ -6,3 +6,8 @@
   font-family: "Avenir";
   src: url("src/fonts/AvenirBook.ttf");
 }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("src/fonts/Montserrat-VariableFont_wght.ttf");
+}

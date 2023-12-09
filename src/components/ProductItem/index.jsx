@@ -12,6 +12,8 @@ const ProductItem = ({
   images,
 }) => {
   const [selectedColor, setSelectedColor] = useState(color);
+  const [selectedButton, setSelectedButton] = useState(null);
+  const [selectedColorName, setSelectedColorName] = useState("");
 
   return (
     <div className={cx("product-item")}>
@@ -25,18 +27,39 @@ const ProductItem = ({
         </div>
         <div className={cx("product-item__buttons")}>
           <button
-            className={cx("color-button", "color-button__yellow")}
-            onClick={() => setSelectedColor("yellowGold")}
+            className={cx("color-button", "color-button__yellow", {
+              "selected-button": selectedButton === "yellowGold",
+            })}
+            onClick={() => {
+              setSelectedColor("yellowGold");
+              setSelectedButton("yellowGold");
+              setSelectedColorName("Yellow Gold");
+            }}
           ></button>
           <button
-            className={cx("color-button", "color-button__roseGold")}
-            onClick={() => setSelectedColor("roseGold")}
+            className={cx("color-button", "color-button__roseGold", {
+              "selected-button": selectedButton === "roseGold",
+            })}
+            onClick={() => {
+              setSelectedColor("roseGold");
+              setSelectedButton("roseGold");
+              setSelectedColorName("Rose Gold");
+            }}
           ></button>
           <button
-            className={cx("color-button", "color-button__whiteGold")}
-            onClick={() => setSelectedColor("whiteGold")}
+            className={cx("color-button", "color-button__whiteGold", {
+              "selected-button": selectedButton === "whiteGold",
+            })}
+            onClick={() => {
+              setSelectedColor("whiteGold");
+              setSelectedButton("whiteGold");
+              setSelectedColorName("White Gold");
+            }}
           ></button>
         </div>
+        <p className={cx("product-item__selected_color_name")}>
+          {selectedColorName}
+        </p>
       </div>
     </div>
   );

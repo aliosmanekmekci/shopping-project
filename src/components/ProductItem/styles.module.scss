@@ -6,7 +6,7 @@
   @apply p-4 m-5;
 
   &__image {
-    @apply hover:scale-110 transition duration-500;
+    @apply hover:scale-150 transition duration-500;
 
     display: inline-block;
     width: 150px;
@@ -17,11 +17,13 @@
   }
 
   &__title {
-    @apply hover:scale-110 transition duration-500;
+    @apply hover:scale-110 transition duration-500 font-custom2 ml-1;
+
+    font-size: 0.5rem;
   }
 
   &__buttons {
-    @apply flex space-x-2;
+    @apply flex space-x-2 mt-2;
   }
 }
 
@@ -39,4 +41,14 @@
   &__whiteGold {
     background-color: theme("colors.gray.200");
   }
+}
+
+.product-item__selected_color_name {
+  @apply font-custom2 font-light m-1;
+
+  font-size: 0.5rem;
+}
+
+.selected-button {
+  @apply border border-black p-1;
 }
