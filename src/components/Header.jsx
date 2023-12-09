@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex">
           <img
             src="src/assets/logos/search.svg"
-            className="text-3xl mr-6 cursor-pointer"
+            className="w-4 h-4 mr-6 cursor-pointer"
             alt="Search Icon"
           />
           <CartIcon />

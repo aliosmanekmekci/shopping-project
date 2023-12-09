@@ -16,6 +16,24 @@ const ProductList = (props) => (
     scrollbar={{ draggable: true }}
     onSwiper={(swiper) => console.log(swiper)}
     onSlideChange={() => console.log("slide change")}
+    breakpoints={{
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 1,
+      },
+      // when window width is >= 768px
+      768: {
+        slidesPerView: 4,
+      },
+      // when window width is >= 1024px
+      1024: {
+        slidesPerView: 4,
+      },
+      // when window width is >= 1920px
+      1920: {
+        slidesPerView: 4,
+      },
+    }}
   >
     {props.products.map((p, i) => (
       <SwiperSlide key={i}>

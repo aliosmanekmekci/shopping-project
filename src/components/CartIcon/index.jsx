@@ -8,7 +8,7 @@ const CartIcon = () => {
     <div className={cx("cart-icon")}>
       <img
         src="src/assets/logos/cart-icon.svg"
-        className="text-3xl cursor-pointer"
+        className="w-4 h-4 mr-6 cursor-pointer"
         alt="Shopping Cart Icon"
       />
       <span className={cx("cart-icon__search-icon")}>0</span>

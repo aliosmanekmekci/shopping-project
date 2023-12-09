@@ -3,23 +3,26 @@
 @use "tailwindcss/utilities";
 
 .product-item {
-  @apply p-4 m-5;
+  @apply p-4 m-5 hover:scale-125 transition duration-500 font-custom2 ml-1;
 
   &__image {
-    @apply hover:scale-150 transition duration-500;
-
     display: inline-block;
     width: 150px;
+    @media (max-width: 640px) {
+      width: 100px; // Smaller image size on mobile
+    }
 
     & > img {
       width: 100%;
+      @apply object-cover;
     }
   }
 
   &__title {
-    @apply hover:scale-110 transition duration-500 font-custom2 ml-1;
-
     font-size: 0.5rem;
+    @media (max-width: 640px) {
+      font-size: 0.4rem; // Smaller font size on mobile
+    }
   }
 
   &__buttons {
@@ -28,18 +31,18 @@
 }
 
 .color-button {
-  @apply w-5 h-5 rounded-full text-sm font-medium;
+  @apply w-5 h-5 rounded-full text-sm font-medium lg:px-2 md:px-2 sm:px-0;
 
   &__yellow {
-    background-color: theme("colors.yellow.200");
+    background-color: #e6ca97;
   }
 
   &__roseGold {
-    background-color: theme("colors.pink.200");
+    background-color: #e1a4a9;
   }
 
   &__whiteGold {
-    background-color: theme("colors.gray.200");
+    background-color: #d9d9d9;
   }
 }
 

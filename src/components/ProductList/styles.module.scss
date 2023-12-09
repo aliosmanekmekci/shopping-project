@@ -1,0 +1,17 @@
+@use "tailwindcss/base";
+@use "tailwindcss/components";
+@use "tailwindcss/utilities";
+
+.product-list {
+  @apply flex flex-wrap justify-center;
+
+  // ...
+}
+
+.swiper-container {
+  // Adjust padding and margins for the Swiper container here
+  @media (max-width: 640px) {
+    // Example: Add more padding or change layout for mobile
+    padding: 10px;
+  }
+}
