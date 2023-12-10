@@ -1,8 +1,28 @@
-# React + Vite
+# Takı Satış Kartları Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React ve Vite kullanılarak geliştirilmiş, takı satış kartlarını içeren bir web uygulamasıdır. Swiper.js ile interaktif slayt gösterileri ve SCSS ile stilize edilmiştir. Uygulama, GitHub Pages üzerinde yayınlanmıştır.
 
-Currently, two official plugins are available:
+#Github Pages Linki
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aşağıdaki linkten projeye erişebilirsiniz.
+
+https://aliosmanekmekci.github.io/shopping-project/
+
+## Özellikler
+
+- **React**: Modern kullanıcı arayüzleri oluşturmak için kullanılan bir JavaScript kütüphanesi.
+- **Vite**: Hızlı ve hafif bir yapılandırma gerektirmeyen geliştirme sunucusu ve yapı aracı.
+- **Swiper.js**: Mobil dokunmatik slaytlar ve modern web siteleri için güçlü ve esnek bir slayt gösterisi kütüphanesi.
+- **SCSS**: CSS'i daha dinamik ve yönetilebilir hale getiren bir ön işlemci.
+
+ ## 1.Repoyu klonlayın:
+
+git clone https://github.com/aliosmanekmekci/shopping-project/
+
+## 2.Bağımlılıkları yükleyin:
+
+npm install
+
+## 3. Geliştirme sunucusunu başlatın:
+
+npm run dev
