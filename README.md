@@ -2,12 +2,7 @@
 
 Bu proje, React ve Vite kullanılarak geliştirilmiş, takı satış kartlarını içeren bir web uygulamasıdır. Swiper.js ile interaktif slayt gösterileri ve SCSS ile stilize edilmiştir. Uygulama, GitHub Pages üzerinde yayınlanmıştır.
 
-![Uploading trim.4986C229-9A55-44D6-A99B-2B6BF75A2004.GIF…]()
-
-
-
-
-#Github Pages Linki
+# Github Pages Linki
 
 Aşağıdaki linkten projeye erişebilirsiniz.
 
