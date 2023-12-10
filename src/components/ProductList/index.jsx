@@ -10,28 +10,31 @@ import "swiper/scss/scrollbar";
 const ProductList = (props) => (
   <Swiper
     modules={[Navigation, Scrollbar, A11y]}
-    spaceBetween={20}
-    slidesPerView={4}
+    spaceBetween={20} // Default spacing
+    slidesPerView={4} // Default number of slides per view
+    className="external-buttons"
     navigation
     scrollbar={{ draggable: true }}
     onSwiper={(swiper) => console.log(swiper)}
     onSlideChange={() => console.log("slide change")}
     breakpoints={{
-      // when window width is >= 640px
-      640: {
+      320: {
         slidesPerView: 1,
+        spaceBetween: 10,
       },
-      // when window width is >= 768px
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+
       768: {
-        slidesPerView: 4,
+        slidesPerView: 3,
+        spaceBetween: 30,
       },
-      // when window width is >= 1024px
+
       1024: {
         slidesPerView: 4,
-      },
-      // when window width is >= 1920px
-      1920: {
-        slidesPerView: 4,
+        spaceBetween: 40,
       },
     }}
   >

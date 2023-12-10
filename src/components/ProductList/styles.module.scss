@@ -4,14 +4,31 @@
 
 .product-list {
   @apply flex flex-wrap justify-center;
-
   // ...
 }
 
 .swiper-container {
-  // Adjust padding and margins for the Swiper container here
+  width: 100%;
+  padding: 10px;
+
   @media (max-width: 640px) {
-    // Example: Add more padding or change layout for mobile
     padding: 10px;
+  }
+
+  .swiper-slide {
+    @apply object-cover;
+    width: auto;
+
+    @media (max-width: 640px) {
+      width: 100%;
+    }
+
+    @media (min-width: 641px) and (max-width: 1024px) {
+      width: 50%;
+    }
+
+    @media (min-width: 1025px) {
+      width: 25%;
+    }
   }
 }
