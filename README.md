@@ -8,7 +8,7 @@ Aşağıdaki linkten projeye erişebilirsiniz.
 
 https://aliosmanekmekci.github.io/shopping-project/
 
-![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/aliosmanekmekci/shopping-project/blob/main/src/assets/logos/trim.4986C229-9A55-44D6-A99B-2B6BF75A2004.GIF))
+![](https://github.com/aliosmanekmekci/shopping-project/blob/main/src/assets/logos/trim.4986C229-9A55-44D6-A99B-2B6BF75A2004.GIF)
 
 ## Özellikler
 
