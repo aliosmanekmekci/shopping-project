@@ -7,7 +7,7 @@ const Header = () => {
         <h1 className="text-xl font-custom1">MY JEWELRY STORE</h1>
         <div className="flex">
           <img
-            src="../src/assets/logos/search.svg"
+            src="./src/assets/logos/search.svg"
             className="w-4 h-4 mr-6 cursor-pointer"
             alt="Search Icon"
           />

@@ -7,7 +7,7 @@ const CartIcon = () => {
   return (
     <div className={cx("cart-icon")}>
       <img
-        src="../src/assets/logos/cart-icon.svg"
+        src="./src/assets/logos/cart-icon.svg"
         className="w-4 h-4 mr-6 cursor-pointer"
         alt="Shopping Cart Icon"
       />
